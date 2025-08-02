@@ -41,4 +41,22 @@ and inside, you can use the following:
 ### implementation
 ``` implementation("VENDOR_DEPENDENCY")``` to declare a vendor dependency. For example, ``` implementation("com.ctre.phoenix6:api-java:6.31.0") ```
 ### nativeDep
-``` nativeDep("VENDOR_DEPENDENCY")``` to declare a native dependency. For example, ``` nativeDep("com.ctre.phoenix6:api-cpp:6.31.0:linuxx86-64") ```
+``` nativeDep("VENDOR_DEPENDENCY")``` to declare a native dependency. For example, ``` nativeDep("com.ctre.phoenix6:api-cpp:6.31.0:linuxathena@zip") ```
+### nativeDep pt. 2
+``` nativeDep("VENDOR_GROUP", "VENDOR_ARTIFACT", "VERSION", "TYPE", "IS_JAR(BOOL)")``` to declare a native dependency. For example, ``` nativeDep("com.ctre.phoenix6", "api-cpp", "25.4.0", wpi.platforms.desktop, false) ```
+
+## Deploying VendorDeps
+
+Once you've declared all of your dependencies. for my example, we can use the following for Pheonex6
+```gradle
+vendorDep {
+    mavenRepo("https://maven.ctr-electronics.com/release/")
+    vendorDep("com.ctre.phoenix6", "wpiapi-java", "25.4.0")
+    nativeDep("com.ctre.phoenix6", "api-cpp", "25.4.0", wpi.platforms.desktop, false)
+}
+```
+We now need to cache the vendordeps to be able to use them.
+
+Now, if you run the gradle task called prefetchVendorDeps, all of the dependencies declared in vendorDeps will be applied, so in our example, after running
+``` ./gradlew prefetchVendorDeps ```
+We see that we can now use the TalonFX class from Pheonex6
