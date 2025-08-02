@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'java-gradle-plugin'
+    id 'org.jetbrains.kotlin.jvm'
+    id 'maven-publish'
+}
+
+group = 'vendordep'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+
+gradlePlugin {
+    plugins {
+        create("vendordep-plugin") {
+            id = 'vendordep-plugin'
+            implementationClass = 'vendordep.VendorDepPlugin'
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21);
+    }
+    withSourcesJar()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+kotlin {
+    jvmToolchain(21)
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            artifactId = 'vendordep-plugin'
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPages"
+            url = uri("${project.rootDir}/maven")
+        }
+    }
+}
