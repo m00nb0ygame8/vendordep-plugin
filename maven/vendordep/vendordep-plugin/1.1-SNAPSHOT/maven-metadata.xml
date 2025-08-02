@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>vendordep</groupId>
+  <artifactId>vendordep-plugin</artifactId>
+  <versioning>
+    <lastUpdated>20250802044016</lastUpdated>
+    <snapshot>
+      <timestamp>20250802.044016</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.1-20250802.044016-2</value>
+        <updated>20250802044016</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.1-20250802.044016-2</value>
+        <updated>20250802044016</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1-20250802.044016-2</value>
+        <updated>20250802044016</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.1-20250802.044016-2</value>
+        <updated>20250802044016</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.1-SNAPSHOT</version>
+</metadata>

@@ -28,5 +28,9 @@ public class VendorDepExtension {
         runtimes.add(dep);
     }
 
+    public void nativeDep(String group, String artifact, String version, String type, boolean isJar) {
+        nativeDep(group + ":" + artifact + ":" + version + ":" + type + "@" + (isJar ? "jar" : "zip"));
+    }
+
 
 }
