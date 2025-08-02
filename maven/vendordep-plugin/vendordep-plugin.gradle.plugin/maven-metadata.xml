@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>vendordep</groupId>
-  <artifactId>vendordep-plugin</artifactId>
+  <groupId>vendordep-plugin</groupId>
+  <artifactId>vendordep-plugin.gradle.plugin</artifactId>
   <versioning>
     <latest>1.0-SNAPSHOT</latest>
     <versions>
