@@ -39,6 +39,7 @@ public class VendorDepPlugin implements Plugin<Project> {
                            project.getLogger().lifecycle("Prefetched: " + file.getName()));
                 });
             });
+            tasks.register("generateVendorDep", GenerateVendorDepTask.class);
 
         });
 
