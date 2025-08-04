@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "vendordep",
+    "module": "vendordep-plugin",
+    "version": "1.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "vendordep-plugin-1.3-SNAPSHOT.jar",
+          "url": "vendordep-plugin-1.3-SNAPSHOT.jar",
+          "size": 6655,
+          "sha512": "fc522e9c73a7a4fed2bc2f84217e93aab6d1a1ce49f6c7b395cdf37ba6ee306467b5fe1b3d2bf4beeb6ad501d35221e8724af3560c771b4a0db7cc82e946ac70",
+          "sha256": "03253e572dbb29c0b5015b47d1e32aa28dffd359f3ed6b8b8684e7cd8c31f7c0",
+          "sha1": "db1a5c2acd4472575d1bbb0a92444bfd9cf0d54c",
+          "md5": "20e94e5c8bdee67a69628d45c6cbeb28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8"
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vendordep-plugin-1.3-SNAPSHOT.jar",
+          "url": "vendordep-plugin-1.3-SNAPSHOT.jar",
+          "size": 6655,
+          "sha512": "fc522e9c73a7a4fed2bc2f84217e93aab6d1a1ce49f6c7b395cdf37ba6ee306467b5fe1b3d2bf4beeb6ad501d35221e8724af3560c771b4a0db7cc82e946ac70",
+          "sha256": "03253e572dbb29c0b5015b47d1e32aa28dffd359f3ed6b8b8684e7cd8c31f7c0",
+          "sha1": "db1a5c2acd4472575d1bbb0a92444bfd9cf0d54c",
+          "md5": "20e94e5c8bdee67a69628d45c6cbeb28"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vendordep-plugin-1.3-SNAPSHOT-sources.jar",
+          "url": "vendordep-plugin-1.3-SNAPSHOT-sources.jar",
+          "size": 2475,
+          "sha512": "ebadd83a4c485de7083a7c6fd97f4a04be1fc274d2b657d9357327261a624e712e4c6862d40482ecbbcec955b3da4f4c577b0b46c87aac448e65f11d5d9efef1",
+          "sha256": "94f6680edcb6a5b1651363860aad912ecb432d85038cfc6bfdbdf1c964a457a7",
+          "sha1": "cbe2caf6985d5e95c356019d093b7bc0b78606ef",
+          "md5": "57fc43f9c81181ab5b7574385d26ce97"
+        }
+      ]
+    }
+  ]
+}
