@@ -58,6 +58,15 @@ vendorDep {
 ```
 We now need to cache the vendordeps to be able to use them.
 
-Now, if you run the gradle task called prefetchVendorDeps, all of the dependencies declared in vendorDeps will be applied, so in our example, after running
+Now, if you run the gradle task called prefetchVendorDeps (see Tasks), all of the dependencies declared in vendorDeps will be applied, so in our example, after running
 ``` ./gradlew prefetchVendorDeps ```
 We see that we can now use the TalonFX class from Phoenix6
+
+## Tasks
+```prefetchVendorDeps```: Fetches all vendor deps and caches them, use while you have internet & about to deploy. <p>
+ - Example: None, just ```./gradlew prefetchVendorDeps``` or run it directly from IntelliJ/VSCode <p>
+ 
+```generateVendorDep```: Used to generate vendor deps provided the url. <p>
+ - ```PdepUrl```: the url for the vendor dep json. <p>
+ - Example:
+```./gradlew generateVendorDep -PdepUrl=https://maven.ctr-electronics.com/release/com/ctre/phoenix6/latest/Phoenix6-frc2025-latest.json```
