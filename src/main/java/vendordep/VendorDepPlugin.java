@@ -5,6 +5,8 @@ import org.gradle.api.Project;
 import org.gradle.api.artifacts.Configuration;
 import org.gradle.api.tasks.TaskContainer;
 
+import java.util.Objects;
+
 public class VendorDepPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
@@ -39,7 +41,9 @@ public class VendorDepPlugin implements Plugin<Project> {
                            project.getLogger().lifecycle("Prefetched: " + file.getName()));
                 });
             });
-            tasks.register("generateVendorDep", GenerateVendorDepTask.class);
+            tasks.register("generateVendorDep", GenerateVendorDepTask.class, task -> {
+                task.getDepUrl().set(project.findProperty("depUrl") != null ? Objects.requireNonNull(project.findProperty("depUrl")).toString() : "");
+            });
 
         });
 

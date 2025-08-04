@@ -29,11 +29,11 @@
         {
           "name": "vendordep-plugin-1.3-SNAPSHOT.jar",
           "url": "vendordep-plugin-1.3-SNAPSHOT.jar",
-          "size": 6655,
-          "sha512": "fc522e9c73a7a4fed2bc2f84217e93aab6d1a1ce49f6c7b395cdf37ba6ee306467b5fe1b3d2bf4beeb6ad501d35221e8724af3560c771b4a0db7cc82e946ac70",
-          "sha256": "03253e572dbb29c0b5015b47d1e32aa28dffd359f3ed6b8b8684e7cd8c31f7c0",
-          "sha1": "db1a5c2acd4472575d1bbb0a92444bfd9cf0d54c",
-          "md5": "20e94e5c8bdee67a69628d45c6cbeb28"
+          "size": 6917,
+          "sha512": "30db71043629b56197ba88cb69ed936c8c1685e4069d55b57d6a00ae3e0ceb2583184ceef430b2ac8d33925b9f9236281614ff82a8c7451423c70c478b746390",
+          "sha256": "36cb7f83416d7021e5e1e5520fec9b22b1b7e3fcb65eab4ca492ecc1a8049529",
+          "sha1": "c848c4c905de258916ddd912ae4d175786143b90",
+          "md5": "0826d6a8ef1292b5b5c8957232511132"
         }
       ]
     },
@@ -74,11 +74,11 @@
         {
           "name": "vendordep-plugin-1.3-SNAPSHOT.jar",
           "url": "vendordep-plugin-1.3-SNAPSHOT.jar",
-          "size": 6655,
-          "sha512": "fc522e9c73a7a4fed2bc2f84217e93aab6d1a1ce49f6c7b395cdf37ba6ee306467b5fe1b3d2bf4beeb6ad501d35221e8724af3560c771b4a0db7cc82e946ac70",
-          "sha256": "03253e572dbb29c0b5015b47d1e32aa28dffd359f3ed6b8b8684e7cd8c31f7c0",
-          "sha1": "db1a5c2acd4472575d1bbb0a92444bfd9cf0d54c",
-          "md5": "20e94e5c8bdee67a69628d45c6cbeb28"
+          "size": 6917,
+          "sha512": "30db71043629b56197ba88cb69ed936c8c1685e4069d55b57d6a00ae3e0ceb2583184ceef430b2ac8d33925b9f9236281614ff82a8c7451423c70c478b746390",
+          "sha256": "36cb7f83416d7021e5e1e5520fec9b22b1b7e3fcb65eab4ca492ecc1a8049529",
+          "sha1": "c848c4c905de258916ddd912ae4d175786143b90",
+          "md5": "0826d6a8ef1292b5b5c8957232511132"
         }
       ]
     },
@@ -94,11 +94,11 @@
         {
           "name": "vendordep-plugin-1.3-SNAPSHOT-sources.jar",
           "url": "vendordep-plugin-1.3-SNAPSHOT-sources.jar",
-          "size": 2475,
-          "sha512": "ebadd83a4c485de7083a7c6fd97f4a04be1fc274d2b657d9357327261a624e712e4c6862d40482ecbbcec955b3da4f4c577b0b46c87aac448e65f11d5d9efef1",
-          "sha256": "94f6680edcb6a5b1651363860aad912ecb432d85038cfc6bfdbdf1c964a457a7",
-          "sha1": "cbe2caf6985d5e95c356019d093b7bc0b78606ef",
-          "md5": "57fc43f9c81181ab5b7574385d26ce97"
+          "size": 2552,
+          "sha512": "bda4f73ef8f7e61f7d81a9f246674ac723078279e3ffc76c667ee55803a8ce855043fd86840fd46dae66ee1410374a597a53aedc6c08a0dfd10933bdcc18b276",
+          "sha256": "e770947f030e621b1142b601211f9cdbad445cad441200135cce23b23df0edb9",
+          "sha1": "c80e6b5df3e2df715c4ea130646ee9ee0560a2f7",
+          "md5": "53e54676ea6f48567229ef4339bde0d1"
         }
       ]
     }
