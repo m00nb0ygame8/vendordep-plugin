@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>vendordep-plugin</groupId>
+  <artifactId>vendordep-plugin.gradle.plugin</artifactId>
+  <versioning>
+    <lastUpdated>20250907025320</lastUpdated>
+    <snapshot>
+      <timestamp>20250907.025320</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.5-20250907.025320-1</value>
+        <updated>20250907025320</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.5-SNAPSHOT</version>
+</metadata>
