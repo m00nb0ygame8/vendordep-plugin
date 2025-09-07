@@ -54,7 +54,7 @@ public abstract class GenerateVendorDepTask extends DefaultTask {
                 String artifactId = dep.get("artifactId").getAsString();
                 String version = dep.get("version").getAsString();
                 boolean isJar = dep.get("isJar").getAsBoolean();
-                // For now just hardcode desktop like your Groovy version
+                // For now just hardcode desktop like your Groovy version. Replace with more specific later
                 System.out.println("    nativeDep(\"" + groupId + "\", \"" + artifactId + "\", \"" + version + "\", wpi.platforms.desktop, " + isJar + ")");
             }
 
